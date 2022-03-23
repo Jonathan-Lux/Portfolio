@@ -29,7 +29,8 @@
     padding-left: 210px;
 }
 
-.footer_socials > svg{
+.footer_socials > a{
+    display: flex;
     width:30px;
     cursor: pointer;
     margin-left: 20px;
@@ -65,7 +66,7 @@
         padding-left:0;
         
     }
-    .footer_socials > svg{
+    .footer_socials > a{
         margin-left:0;
         margin-right: 40px;
     }

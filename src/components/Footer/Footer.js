@@ -14,9 +14,16 @@ export default function Footer(){
                 </p>
             </div>
             <div className="footer_socials">
-                <TiSocialLinkedinCircular size='40px'/>
-                <TiSocialGithubCircular size='40px'/>
+                <a href="https://www.linkedin.com/in/jonathan-lux-840162161/">
+                <TiSocialLinkedinCircular  size='40px'/>
+                </a>
+                <a href="https://github.com/Jonathan-Lux">
+               <TiSocialGithubCircular size='40px' />
+               </a>
+               <a href="h">
                <HiOutlineMail size='40px'/>
+               </a>
+
             </div>
         </div>
     )

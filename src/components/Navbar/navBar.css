@@ -2,7 +2,6 @@
 .navBar{
     padding:30px 100px;
     background-color:#2d2e32;
-    border-bottom: 1px solid white;
 }
 
 nav{
@@ -67,6 +66,9 @@ nav{
     align-items: center; 
 }
 
+.navBar_social a:hover{
+  color: #64f4ac;
+}
 
 .navBar_social p:hover{
     color:#64f4ac

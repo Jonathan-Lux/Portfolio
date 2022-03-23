@@ -6,11 +6,11 @@ import {DiJavascript} from"react-icons/di"
 import {useState, useEffect} from"react"
 import axios from "axios"
 
-export default function Home(){
+export default  function Home(){
 const [projects, setProjects] = useState([])
 
     useEffect(() =>{
-        axios.get("https://api.github.com/users/jonathan-lux/repos").then(res =>{setProjects(res.data)})
+     axios.get("https://api.github.com/users/jonathan-lux/repos").then(res =>{setProjects(res.data)})
            
         
         //eslint-disable-next-line react-hooks/exhaustive-deps

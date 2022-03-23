@@ -39,17 +39,17 @@ export default function NavBar() {
           </ul>
         )}
         <div className="menu">
-          {toggleMenu ?  (
+          {toggleMenu ? (
             <img
               src={close}
               className="menuIcons"
-              onClick={() => setToggleMenu(0)}
+              onClick={() => setToggleMenu(false)}
               alt="close"/>
           ) : (
             <img
-              className="menuIcons"
               src={bars}
-              onClick={() => setToggleMenu(1)}
+              className="menuIcons"
+              onClick={() => setToggleMenu(true)}
               alt="open sidebar"/>
           )}
         </div>
@@ -67,7 +67,6 @@ export default function NavBar() {
           <a href="#contact" className="navBar_email">
             <HiOutlineMail size="40px"/>
           </a>
-
         </div>
       </nav>
     </div>

@@ -5,6 +5,7 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 import {useEffect} from"react";
 import About from "./components/about/about";
+import Projects from "./components/Projects/Projects";
 
 function App() {
 useEffect(() =>{
@@ -13,12 +14,13 @@ useEffect(() =>{
 },[])
 
   return (
-    <div className="App">
+    <>
       <NavBar/>
       <Home/>
       <About/>
+      <Projects/>
       <Footer/>
-    </div>
+    </>
   );
 }
 
