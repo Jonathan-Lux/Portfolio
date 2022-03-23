@@ -1,6 +1,8 @@
-Meu portfólio
-para rodar e visuliazar meu projeto instale as dependências:
-npm install
-npm i aos
-npm i axios
-Em produção, projeto totalmente responsívo.
+<h1>Meu portfólio</h1>
+<h2>para rodar e visuliazar meu projeto instale as dependências:</h2>
+<ul>
+<li>npm install</li>
+<li>npm i aos</li>
+<li>npm i axios</li>
+</ul>
+<p>Em produção, projeto totalmente responsívo.</p>
