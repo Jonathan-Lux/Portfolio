@@ -4,6 +4,7 @@ import NavBar from "./components/Navbar/navBar";
 import AOS from "aos"
 import "aos/dist/aos.css"
 import {useEffect} from"react";
+import About from "./components/about/about";
 
 function App() {
 useEffect(() =>{
@@ -15,6 +16,7 @@ useEffect(() =>{
     <div className="App">
       <NavBar/>
       <Home/>
+      <About/>
       <Footer/>
     </div>
   );
