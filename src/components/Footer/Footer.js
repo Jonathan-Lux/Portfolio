@@ -14,13 +14,13 @@ export default function Footer(){
                 </p>
             </div>
             <div className="footer_socials">
-                <a href="https://www.linkedin.com/in/jonathan-lux-840162161/">
+                <a href="https://www.linkedin.com/in/jonathan-lux-840162161/" target="_blank" rel="noopener noreferrer">
                 <TiSocialLinkedinCircular  size='40px'/>
                 </a>
-                <a href="https://github.com/Jonathan-Lux">
+                <a href="https://github.com/Jonathan-Lux" target="_blank" rel="noopener noreferrer">
                <TiSocialGithubCircular size='40px' />
                </a>
-               <a href="h">
+               <a href>
                <HiOutlineMail size='40px'/>
                </a>
 

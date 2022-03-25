@@ -11,14 +11,11 @@ const [projects, setProjects] = useState([])
 
     useEffect(() =>{
      axios.get("https://api.github.com/users/jonathan-lux/repos").then(res =>{setProjects(res.data)})
-           
-        
         //eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
 
-
     return(
-       <div className="home" id="container">
+       <div className="home" id="home">
            <div className="home_container">
                <div className="home_left" data-aos="fade-right" data-aos-delay="500">
                    <p className="home_left_subtitle"> Front_end </p>
@@ -31,7 +28,7 @@ const [projects, setProjects] = useState([])
                    <p>Um júnior buscando oportunidade para entrar no mercado</p>
                    <p>para buscar a sua sonhada vaga</p>
                </div>
-               <a a href="#contact" className="home_left_a">Contate-me</a>
+               <a href="#contact" className="home_left_a">Contate-me</a>
            </div>
            <div className="home_right" data-aos="fade-left" data-aos-delay="1000">
                <img src={eu} alt="minha foto" className="home_right_eu" />
@@ -45,7 +42,7 @@ const [projects, setProjects] = useState([])
                     <DiJavascript size="60px"/>
                </div>
            </div>
-           <div className="home_miniInfo" data-aos="fade-up" data-aos-delay="1500">
+           <div className="home_miniInfo" data-aos="fade-up" data-aos-delay="1000">
                <p className="info_number">Estudando</p>
                <p className="info_desc">buscando o melhor para evoluir</p>
                <p className="info_number">{projects.length}</p>

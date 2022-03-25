@@ -1,4 +1,4 @@
-import Footer from "./components/Footer/Footer";
+import Contact from "./components/contact/Contact"
 import Home from "./components/Home/Home";
 import NavBar from "./components/Navbar/navBar";
 import AOS from "aos"
@@ -19,7 +19,7 @@ useEffect(() =>{
       <Home/>
       <About/>
       <Projects/>
-      <Footer/>
+      <Contact/>
     </>
   );
 }

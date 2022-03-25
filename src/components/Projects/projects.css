@@ -27,17 +27,22 @@
     letter-spacing: 1px;
     margin: 70px 0 100px 70px;
     font-size:25px;
-    color: #64f4ae;
     background:none;
     text-transform: uppercase;
     outline: none;
     border: none;
-    border-bottom: 2px solid #64f4ae;
     cursor: pointer;
+
 }
-.projects_left_btn:hover{
+.projects_left_btn > a{
+    color: #64f4ae;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    line-height: 40px;
+}
+.projects_left_btn a:hover{
     color: white;
-    border-bottom: 2px solid white;
 }
 
 

@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className="about" id="about">
       <div className="about_left">
-        <div className="about_cards">
+        <div className="about_cards" data-aos="fade-right" data-aos-delay="1000">
             <div className="about_card">
           <div className="card_top">
             <p className="card_title">Front-End</p>
@@ -16,7 +16,7 @@ export default function About() {
           <p className="card_desc">projetos em react</p>
           <p className="card_link">4 Projetos</p>
         </div>
-        <div className="about_card">
+        <div className="about_card" data-aos="fade-right" data-aos-delay="1000">
           <div className="card_top">
             <p className="card_title">Desafios</p>
             <BsCodeSlash size="80px"/>
@@ -24,7 +24,7 @@ export default function About() {
           <p className="card_desc">Desafios de cursos</p>
           <p className="card_link"> 2 desafios</p>
         </div>
-        <div className="about_card">
+        <div className="about_card" data-aos="fade-right" data-aos-delay="1000">
           <div className="card_top">
             <p className="card_title">Outros</p>
             <BiTargetLock size="80px"/>
