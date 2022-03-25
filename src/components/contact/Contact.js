@@ -18,7 +18,7 @@ export default function Contact(){
                         Informações
                     </p>
                     <p className="contact_right_address">Porto Alegre/ Rio grande do Sul</p>
-                    <p className="contact_right_email">d.lu470@hotmail.com</p>
+                    <p className="contact_right_email">jonathan_lux@outlook.com</p>
                     <ul className="contact_right_ul">
                         <li className="contact_right_links"><a href="#home">Home</a></li>
                         <li className="contact_right_links"><a href="#about">About</a></li>

@@ -72,6 +72,10 @@
     width: 100%;
     position: relative;
     z-index: 3;
+    left: -10%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
 }
 .home_right::after{
     content: "";
@@ -194,6 +198,12 @@
 
     .home_right{
         width:500px;
+    }
+    .home_right_eu{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        left: auto;
     }
     .home_right::before{
         bottom:65%;
