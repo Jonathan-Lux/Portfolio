@@ -5,4 +5,4 @@
 <li>npm i aos</li>
 <li>npm i axios</li>
 </ul>
-<p>Em produção, projeto totalmente responsívo.</p>
+<p>Projeto totalmente responsívo para web e mobile, usando React com axios para fazer a chamada pro github, para mostrar quantos repositórios eu tenho</p>
