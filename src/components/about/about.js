@@ -39,8 +39,8 @@ export default function About() {
           <p className="about_title">Hello, eu me chamo Jonathan Lux</p>
           <p className="about_info">E estou iniciando minha carreira</p>
           < p className="about_desc">
-          Estou em busca em minha primeira oportunidade na área de programador Front-End, para crescer, desenvolver e aprimorar minhas habilidades no mercado da programação.
-          Sou uma pessoa persistente, esforçado e disposto a aprender novas linguagens de programação, tenho conhecimento em JS e React e NodeJs, desenvolvendo e praticando alguns projetos.
+          Estou em busca da minha primeira oportunidade na área de programador Front-End para crescer, desenvolver e aprimorar minhas habilidades no mercado da programação.
+          Sou uma pessoa persistente, esforçada e disposta a aprender novas linguagens de programação. Tenho conhecimento em JS, React e NodeJs, e estou desenvolvendo e praticando alguns projetos, os quais podem ser conferidos logo abaixo.
           </p>
       </div>
     </div>
