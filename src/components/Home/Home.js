@@ -33,7 +33,7 @@ const [projects, setProjects] = useState([])
            <div className="home_right" data-aos="fade-left" data-aos-delay="1000">
                <img src={eu} alt="minha foto" className="home_right_eu" />
                <div className="home_right_circle home_right_react">
-                   //<FaReact size="60px"/> //
+                   <FaReact size="60px"/>
                </div>
                <div className="home_right_circle home_right_node">
                    <GrNode size="60px"/>
