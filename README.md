@@ -5,4 +5,4 @@
 <li>npm i aos</li>
 <li>npm i axios</li>
 </ul>
-<p>Projeto totalmente responsívo para web e mobile, usando React com axios para fazer a chamada pro github, para mostrar a quatidade de repositórios.</p>
+<p>Projeto totalmente responsívo para web e mobile, usando React com axios para fazer a chamada pro github, mostrando a quatidade de repositórios.</p>
