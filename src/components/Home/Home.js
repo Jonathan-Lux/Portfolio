@@ -27,8 +27,8 @@ const [projects, setProjects] = useState([])
                <div className="home_left_info">
                    <p>Um júnior buscando oportunidade para entrar no mercado</p>
                    <p>para buscar a sua sonhada vaga</p>
-               </div>
                <a href="#contact" className="home_left_a">Contate-me</a>
+               </div>
            </div>
            <div className="home_right" data-aos="fade-left" data-aos-delay="1000">
                <img src={eu} alt="minha foto" className="home_right_eu" />
