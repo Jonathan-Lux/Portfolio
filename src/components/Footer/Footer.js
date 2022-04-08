@@ -20,7 +20,7 @@ export default function Footer(){
                 <a href="https://github.com/Jonathan-Lux" target="_blank" rel="noopener noreferrer">
                <TiSocialGithubCircular size='40px' />
                </a>
-               <a href>
+               <a href="mailto:jonathan_lux@outlook.com">
                <HiOutlineMail size='40px'/>
                </a>
 
