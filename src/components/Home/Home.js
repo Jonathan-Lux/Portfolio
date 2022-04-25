@@ -12,7 +12,7 @@ const [projects, setProjects] = useState([])
     useEffect(() =>{
      axios.get("https://api.github.com/users/jonathan-lux/repos").then(res =>{setProjects(res.data)})
         //eslint-disable-next-line react-hooks/exhaustive-deps
-    },[])
+    },[projects])
 
     return(
        <div className="home" id="home">
