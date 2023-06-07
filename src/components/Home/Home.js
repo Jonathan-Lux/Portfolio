@@ -18,7 +18,7 @@ const [projects, setProjects] = useState([])
        <div className="home" id="home">
            <div className="home_container">
                <div className="home_left" data-aos="fade-right" data-aos-delay="500">
-                   <p className="home_left_subtitle"> Front_end </p>
+                   <p className="home_left_subtitle"> Front_end Back_end</p>
                     <div className="home_left_title">
                         <p>Primeiro entendemos,</p>
                         <p>Depois codamos</p>

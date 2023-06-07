@@ -23,7 +23,7 @@ export default function NavBar() {
     <div className="navBar">
       <nav>
         <div className="logo">
-          <span className="logoSpan">Jonathan</span>Lux
+          <span className="logoSpan">Jonathan Lux</span>
         </div>
         {(toggleMenu || screenWidth > 1024) && (
           <ul className="list">
