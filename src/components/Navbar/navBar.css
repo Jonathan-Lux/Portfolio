@@ -1,0 +1,167 @@
+
+.navBar{
+    padding:30px 100px;
+    background-color:#2d2e32;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    height: 50px;
+}
+
+.logo{
+    display:flex;
+    font-size:30px;
+}
+
+.logoSpan{
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.list{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links{
+    margin-right: 25px;
+    font-size:16px;
+    cursor: pointer;
+}
+
+.links > a{
+    text-decoration: none;
+}
+
+.links > a:hover{
+    color: #64f4ac
+}
+
+.menu{
+    display:none;
+    position:absolute;
+    right:20px;
+    top: 0 auto;
+    filter:invert(1);
+}
+
+.menu:hover{
+    opacity:0.8;
+    cursor:pointer;
+}
+
+.menuIcons{
+    width:20px;
+}
+
+.navBar_social{
+    display:flex;
+    justify-content:center;
+    align-items: center; 
+}
+
+.navBar_social a:hover{
+  color: #64f4ac;
+}
+
+.navBar_social p:hover{
+    color:#64f4ac
+}
+
+.navBar_linkedinDiv,
+.navBar_githubDiv{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-left:50px;
+    cursor: pointer;
+}
+
+.navBar_linkedin,
+.navBar_github{
+    filter:invert(1);
+    width:20px;
+    margin-right:10px;
+}
+
+.navBar_email{
+    width:55px;
+    margin-left:50px;
+    cursor: pointer;
+
+}
+
+
+@media  (max-width:1024px) {
+    .navBar{
+        padding:30px 100px 30px 30px;
+    }
+    .list{
+        position: absolute;
+        left: 0;
+        top: 110px;
+        width: 100%;
+        flex-direction: column;
+        height:auto;
+        padding:0;
+        background-color: #333438;
+        z-index: 100;
+    }
+
+    .links{
+        top: 0;
+        width: 100%;
+        border-top: 1px solid rgba(255,255,255,0.555);
+        text-align: center;
+        margin-right: 0;
+        padding: 20px 0px;
+        opacity: 0.8;
+    }
+    .links:hover{
+        opacity: 1;
+    }
+    .menu{
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .navBar{
+        padding: 30px 50px;
+    }
+
+    .logo{
+        font-size: 25px;
+        margin-right: 50px;
+    }
+    .navBar_social{
+        justify-content:unset;
+    }
+    .navBar_linkedinDiv,
+    .navBar_githubDiv{
+        display:none;
+    }
+    .navBar_linkedin,
+    .navBar_github{
+        margin-right: 30px;
+    }
+    .navBar_email{
+        margin-left: 0;
+    }
+}
+
+@media  (max-width:450px){
+    .navBar{
+        padding: 30px 60px 30px 30px;
+    }
+
+    .logo{
+        margin-right: 15px;
+    }
+}
