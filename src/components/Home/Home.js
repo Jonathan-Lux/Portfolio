@@ -26,7 +26,7 @@ const [projects, setProjects] = useState([])
                </div>
                <div className="home_left_info">
                    <p>Um júnior buscando oportunidade para entrar no mercado</p>
-                   <p>para buscar a sua sonhada vaga</p>
+                   <p>e buscar a sua sonhada vaga</p>
                <a href="#contact" className="home_left_a">Contate-me</a>
                </div>
            </div>
